@@ -1,9 +1,9 @@
 locals {
-  name            = "chess"
+  name            = "tlewis11"
   cluster_version = "1.20"
   region          = "us-east-1"
-  vpc_id          = "vpc-02d591f50d547d4e1"
-  subnets         = ["subnet-009b6a01add7aeb2f", "subnet-0f341c419d27ffc3c" ,"subnet-0fa3a3120785eab92" ,"subnet-02c1208dc39df83f5"]
+  vpc_id          = "vpc-0a509a7af79ce8018"
+  subnets         = ["subnet-03323c617160ac781", "subnet-0c4ed5fcda49eae35", "subnet-05fe6ca18966aba29", "subnet-060edab5d252b2576"]
 }
 
 data "aws_eks_cluster_auth" "eks" {
